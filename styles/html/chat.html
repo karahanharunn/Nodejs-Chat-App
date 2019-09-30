@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="../css/stylesheet.css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans Condensed:300italic,300,700" rel="stylesheet" type="text/css">
+
+
+
+</head>
+
+<body>
+
+
+<section class="section">
+
+
+
+    <div class="bagli">
+
+        <img src="../img/unnamed.jpg" id="creatorImage" />
+
+        <div class="infobagli">
+
+
+            <h2>Kullanıcı Giriş Paneli</h2>
+            <br/>
+
+            <form class="girisForm">
+                <input type="text" id="kisi_Ad" placeholder="Kullanıcı Adı" /><br/>
+                <input type="text" id="kisi_ip" placeholder="İp Adresi" /><br/>
+                <input type="submit" id="Onay1" value="Onayla" />
+                <div class="qwe" >
+
+                    <ul class="asd">
+
+                    </ul>
+
+                </div>
+            </form>
+
+        </div>
+
+
+    </div>
+
+    <div class="personinside">
+
+        <img src="../img/unnamed.jpg" id="kisi1Resim" />
+
+        <div class="infoInside">
+            <h2> <span class="nickname-chat"></span></h2>
+            <br/>
+
+            <form class="girisForm">
+                <input type="text" id="kisi2_Ad" placeholder="Kullanıcı Adı" /><br/>
+                <input type="text" id="kisi2_ip" placeholder="İp Adresi" /><br/>
+                <input type="submit" id="Onay2" value="Sohbet Odası" />
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="davet-ekrani">
+
+        <h2>Bir Arkadaşını url adresi yardımıyla davet edebilirsin</h2>
+
+
+        <div class="link">
+            <a title="Davet Et" href="" id="link"></a>
+        </div>
+
+    </div>
+
+    <div class="left">
+
+        <img src="../img/unnamed.jpg" id="kisi2Resim" />
+
+        <div class="info">
+            <h2><span class="nickname-left"></span> Chatten ayrıldı</h2>
+
+        </div>
+
+    </div>
+
+    <div class="fazla_kisi">
+
+        <h2>Fazla kişi olduğundan dolayı katılamazsın</h2>
+        <h5>Yeni Bir Oda Oluşturabilirsin <a title="New Room" href="/create" id="room"></a>?</h5>
+
+    </div>
+
+
+
+    <div class="mesajEkrani">
+
+        <ul class="chats">
+
+        </ul>
+
+    </div>
+
+
+    <div id="users"></div>
+</section>
+
+
+
+<footer>
+
+
+
+    <form id="mesajform">
+
+        <textarea id="message" placeholder="Yazıyor"></textarea>
+        <input type="submit" id="submit" value="Gönder"/>
+
+
+    </form>
+
+
+    <div class="btn-group">
+        <a href="http://localhost:8080">
+            <button>Çıkış</button>
+        </a>
+
+    </div>
+
+</footer>
+
+
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="../js/moment.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="../js/chat.js"></script>
+
+</body>
+
+</html>

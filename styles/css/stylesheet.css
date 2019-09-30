@@ -1,0 +1,422 @@
+
+/*------------- Reset browser differences ------------- */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+body {
+    background-color: #f0f1f3;
+    color:#667073;
+    font: 16px/1.3 'Arial',sans-serif;
+}
+
+
+
+
+/* ------------ Header styles ------------ */
+
+
+
+/* ------ Home ------ */
+
+
+.homebanner {
+    height: 120px;
+    background-color: #3c4446;
+}
+
+.homebannertext {
+    text-align:center;
+    padding-top: 35px;
+    font-family: 'Open Sans Condensed',serif;
+    font-weight: bold;
+    color:white;
+}
+.homebannertext span {
+    color: #d6441b;
+}
+
+#logo {
+    text-decoration: none;
+    color:red;
+}
+#logo:visited {
+    color: red;
+}
+
+
+
+/* ------ Invite ------ */
+
+
+.banner {
+    height: 70px;
+    background-color: #3c4446;
+    margin-bottom: 200px;
+}
+
+.bannertext {
+    text-align:center;
+    padding-top: 15px;
+    font-family: 'Open Sans Condensed',serif;
+    font-weight: bold;
+    color:white;
+    font-size:25px;
+}
+.bannertext span {
+    color: #d6441b;
+}
+
+
+
+
+
+.homesection {
+    text-align:center;
+    margin-top:140px;
+}
+
+.node {
+    padding-top: 20px;
+    text-align:center;
+    margin-bottom:120px;
+}
+.node #chat {
+    font-family: 'Open Sans Condensed';
+    font-weight: normal;
+    color: #707368;
+}
+
+#nodelogo {
+    width: 410px;
+    height: 110px;
+    margin-bottom: 35px;
+}
+
+#create {
+    width: 300px;
+    height: 100px;
+    background-color: #70b1d1;
+    text-align:center;
+    display: block;
+    margin:0px auto;
+    border-radius: 3px;
+    box-shadow: 0px 5px 5px #e4e8e7;
+    text-decoration: none;
+    margin-bottom: 70px;
+    color: #eeffff;
+}
+#create:visited {
+    color: #eeffff;
+    text-decoration: none;
+}
+#createbutton {
+    padding-top: 28px;
+}
+#little {
+    font-weight: normal;
+    font-size: 13px;
+}
+#big {
+    font-weight: bold;
+    font-size: 23px;
+}
+.tutorial{
+    margin-bottom:90px;
+}
+#tutorial {
+    color: #88bfd4;
+}
+#tutorial:visited {
+    color: #88bfd4;
+}
+
+
+
+
+
+
+/* ------ Left ------*/
+
+.left {
+    text-align:center;
+    display: block;
+    margin:0px auto;
+    width: 750px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow:0px 3px 3px #e3e4e6;
+    color: #637277;
+    margin-bottom: 400px;
+}
+.left h2 {
+    padding-top: 50px;
+    padding-bottom: 6px;
+}
+.left h5 {
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+
+#kisi2Resim {
+    float: left;
+    margin: 90px 0 0 140px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.nickname-left {
+    width: 40px;
+    overflow: hidden;
+}
+
+/* ------ Too many People ------*/
+
+
+.fazla_kisi {
+    text-align:center;
+    display: block;
+    margin:0px auto;
+    width: 750px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow:0px 3px 3px #e3e4e6;
+    color: #637277;
+}
+.fazla_kisi h2 {
+    padding-top: 100px;
+    padding-bottom: 8px;
+}
+.fazla_kisi h5 {
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+
+#room:visited {
+    color: #88bfd4;
+}
+
+
+
+
+.image {
+    clear:both;
+    float:left;
+    height: 160px;
+    width: 80px;
+    text-align:center;
+    overflow: hidden;
+}
+
+.image img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.body {
+    text-align:center;
+    width: 40%;
+    display: block;
+    margin:0px auto 650px;
+    background-color: #ffffff;
+    color: #637277;
+}
+
+.chats {
+    list-style-type: none;
+    margin-top:100px;
+}
+
+
+
+.me {
+    clear:both;
+    float:left;
+    margin-bottom:10px;
+}
+
+.you {
+    clear:both;
+    float:right;
+    margin-bottom:10px;
+}
+
+.you .image{
+    float:right;
+}
+
+.chats .me p {
+    text-align:left;
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom:30px;
+    padding: 25px 34px;
+    min-width: 160px;
+    min-height: 10px;
+    max-width: 510px;
+    background-color: #FFF;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px #E3E4E6;
+    color: #637277;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.chats .you p {
+    text-align:left;
+    float: left;
+    display: inline-block;
+    margin-right:20px;
+    margin-bottom:30px;
+    padding: 25px 34px;
+    min-width: 160px;
+    min-height: 10px;
+    max-width: 510px;
+    background-color: #FFF;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px #E3E4E6;
+    color: #637277;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+
+
+
+/* ------------ Footer styles ------------ */
+
+footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding-top: 30px;
+    background-color: white;
+    height: 130px;
+}
+#mesajform {
+    width:700px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#message {
+    width: 550px;
+    height: 80px;
+    display: block;
+    float:left;
+    margin: 0 auto;
+
+}
+
+#submit {
+    width: 110px;
+    height: 60px;
+    float:right;
+    text-align:center;
+    background-color: #73b4d4;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 3px 3px 3px #efedee;
+    border-radius: 2px;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    outline: none;
+    cursor:pointer;
+}
+#submit2{
+    width: 110px;
+    height: 60px;
+    float:right;
+    text-align:center;
+    background-color: #73b4d4;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 3px 3px 3px #efedee;
+    border-radius: 2px;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    outline: none;
+    cursor:pointer;
+}
+
+
+.btn-group button {
+
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: right; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+/* ---------------------- HIDE -------------------------- */
+
+
+.bagli {
+    display: none;
+}
+
+.personinside {
+    display: none;
+}
+
+.davet-ekrani {
+    display:none;
+}
+
+.left {
+    display:none;
+}
+
+.fazla_kisi {
+    display:none;
+}
+
+.nomessages{
+    display:none;
+}
+
+footer {
+    display:none;
+}
+
+.mesajEkrani{
+    display:none;
+    width:700px;
+    margin: 0 auto 200px;
+    overflow:hidden;
+}
